@@ -1,0 +1,49 @@
+class banco():
+
+    color = None
+    nombre = None
+    personal = None
+    cajeros = None
+    ventanillas = None
+    clientes = None
+    origen = None
+    seguridad = None
+    ubicacion = None
+    sucursal = None
+    
+    def init(self):
+        print("class banco")
+        
+    def depositar_clientes(self):
+        print("método depositar_clientes")
+
+    def trabajar_personal(self):
+         print("método trabajar_personal")
+
+    def atender_gente(self):
+        print("método atender_gente")
+
+    def recibir_pago(self):
+        print("método recibir_pago")
+
+    def esperar_turno(self):
+        print("método esperar_turno")
+
+
+bbva = coche()
+bbva.color = "azul con blanco"
+bbva.nombre = "BBVA Bancomer"
+bbva.personal = "trabajadores"
+bbva.cajeros = "8"
+bbva.ventanillas = "5"
+bbva.clientes = "varios"
+bbva.origen = "mexicano"
+bbva.seguridad = "alarma, cámaras y guardias de seguridad"
+bbva.ubicacion = "Tulancingo, Hidalgo"
+bbva.sucursal = "2"
+
+bbva.depositar_clientes()
+bbva.trabajar_personal()
+bbva.atender_gente()
+bbva.recibir_pago()
+bbva.esperar_turno()
